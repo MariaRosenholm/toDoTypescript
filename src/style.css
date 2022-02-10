@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./pics/background.png");
+  font-family: "Rampart One", cursive;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+#wrapper {
+  width: 60%;
+  height: 75vh;
+  margin-left: 20%;
+  margin-top: 5vh;
+  border: double black 1vh;
+  border-radius: 10px;
+  background-color: rgb(228, 127, 188);
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 30% 50%;
+  grid-gap: 5px;
+  padding-bottom: 2vh;
+  overflow-y: scroll;
+}
+
+H1 {
+  margin: 5vh 0;
+  text-align: center;
+  color: rgb(54, 3, 31);
+  font-size: 60px;
+}
+
+input {
+  margin: 1vh;
+  padding: 2vh;
+  font-family: "Rampart One", cursive;
+  font-size: 25px;
+  border-radius: 2vh;
+  background-color: rgb(250, 223, 244);
+}
+
+#save,
+#delete {
+  background-color: rgb(232, 3, 129);
+  border: double 1vh rgb(250, 223, 244);
+  color: rgb(54, 3, 31);
+}
+
+#save:hover,
+#delete:hover {
+  border: double 1vh rgb(54, 3, 31);
+}
+
+ol {
+  list-style: none;
+}
+
+li {
+  background-image: url("./pics/check.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  font-size: 25px;
+  color: rgb(54, 3, 31);
+  width: 46vw;
+  text-align: left;
+  border-top: double 1vh rgb(54, 3, 31);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 5vw;
+}
+
+button {
+  margin-left: 3vw;
+  padding: 1.5vh;
+  background-image: url("./pics/trash.png");
+  background-repeat: no-repeat;
+  background-color: rgb(228, 127, 188);
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+
+button:hover {
+  background-image: url("./pics/trash1.png");
+}
+
+.Done {
+  text-decoration: line-through;
+  background-image: url("./pics/check1.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+footer {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 3vh;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(250, 223, 244);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(232, 3, 129);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(54, 3, 31);
+}

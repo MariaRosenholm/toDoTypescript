@@ -1,0 +1,24 @@
+{
+  "name": "toDoNoParcel",
+  "version": "1.0.0",
+  "description": "Business College Helsinki school project with Typescript, HTML5 and CSS3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaRosenholm/toDoNoParcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaRosenholm/toDoNoParcel/issues"
+  },
+  "homepage": "https://github.com/MariaRosenholm/toDoNoParcel#readme",
+  "devDependencies": {
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
