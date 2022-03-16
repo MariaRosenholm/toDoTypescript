@@ -1,4 +1,4 @@
-const save = document.querySelector("#save") as HTMLInputElement;
+const save = document.getElementById("save") as HTMLInputElement;
 let toDo = document.querySelector("#toDo") as HTMLInputElement;
 const list = document.querySelector("ol") as HTMLOListElement;
 const deleteButton = document.querySelector("#delete") as HTMLInputElement;
@@ -6,8 +6,8 @@ let trimmedTodo: string;
 
 let listMaker: (L: string) => void;
 listMaker = (L) => {
-  let newLi = document.createElement("li");
-  let newDelete = document.createElement("button");
+  let newLi = document.createElement("li") as HTMLLIElement;
+  let newDelete = document.createElement("button") as HTMLButtonElement;
   newDelete.textContent = " ";
   newLi.textContent = L;
   newLi.appendChild(newDelete);
